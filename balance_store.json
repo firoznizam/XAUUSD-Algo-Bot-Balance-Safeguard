@@ -1,0 +1,81 @@
+{
+  "softwareBalance": 10500,
+  "equity": 10500,
+  "snapshots": [
+    {
+      "id": "snap-1789717269283",
+      "timestamp": "2026-09-18 07:41:09 UTC",
+      "createdAt": 1789717269283,
+      "title": "Manual Backup @ $10000",
+      "softwareBalance": 10000,
+      "equity": 10000,
+      "margin": 0,
+      "freeMargin": 10000,
+      "currency": "USD",
+      "openTradesCount": 0,
+      "floatingPnl": 0,
+      "realizedPnl": 0,
+      "notes": "Instant snapshot from top safeguard banner",
+      "type": "MANUAL_BACKUP"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "led-1789717282612",
+      "timestamp": "2026-09-18 07:41:22",
+      "type": "USER_ADJUSTMENT",
+      "amount": 0,
+      "previousBalance": 10000,
+      "newBalance": 10000,
+      "description": "Trade closed: BUY #1619353 PnL $0"
+    },
+    {
+      "id": "led-1789717282608",
+      "timestamp": "2026-09-18 07:41:22",
+      "type": "USER_ADJUSTMENT",
+      "amount": 0,
+      "previousBalance": 10000,
+      "newBalance": 10000,
+      "description": "Trade closed: BUY #1619353 PnL $0"
+    },
+    {
+      "id": "led-init",
+      "timestamp": "2026-09-18 07:40:51",
+      "type": "INITIAL",
+      "amount": 10000,
+      "previousBalance": 0,
+      "newBalance": 10000,
+      "description": "Server software balance initialized"
+    }
+  ],
+  "mt5Positions": [
+    {
+      "ticket": 1032464,
+      "symbol": "XAUUSD",
+      "type": 0,
+      "price_open": 4393.17,
+      "sl": 4388.25,
+      "tp": 4403.01,
+      "volume": 0.2,
+      "magic": 20240801,
+      "time": 1789717566,
+      "comment": "StockLearners_XAUUSD"
+    }
+  ],
+  "botLogs": [
+    {
+      "id": "log-1789717566134-toqs",
+      "timestamp": "07:46:06",
+      "level": "TRADE",
+      "message": "🤖 BUY Order Placed on MT5 | Ticket: #1142394 | Lots: 0.2 | Price: $4393.17 | SL: $4388.25 | TP: $4403.01"
+    },
+    {
+      "id": "log-1789717566404-k70e",
+      "timestamp": "07:46:06",
+      "level": "SUCCESS",
+      "message": "📱 Telegram Trade Alert delivered to chat ID 123456789"
+    }
+  ],
+  "isAutoTrading": true,
+  "lastHeartbeat": "2026-09-18T07:40:51.623Z"
+}

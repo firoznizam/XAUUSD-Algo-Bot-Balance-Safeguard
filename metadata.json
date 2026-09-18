@@ -1,0 +1,6 @@
+{
+  "name": "XAUUSD Algo Bot & Balance Safeguard",
+  "description": "Stock Learners Liquidity Sweep + EMA + Supertrend + VWAP trading algorithm for XAUUSD with software balance backup, MT5 execution engine, live risk management, and Python export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
